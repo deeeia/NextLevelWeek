@@ -1,0 +1,38 @@
+:root{
+    --title-color: #322153;
+    --primary-color: #34cb79;
+    --back-color: #F0F0F5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;    
+}
+
+body{
+    background: var(--back-color);
+    -webkit-font-smothing: antialiased;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1, h2, h4, h4, h5, h6{
+    color: var(--title-color);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* BOX MODEL 
+        Modelo de caixa
+        Tpda caixa tem:
+        largura, altura, espaçamentos, preenchimentos
+        bordas, cor, fundo, maneira que é vista pelo html (display),
+        posicionamento, alinhamentos
+*/
+
